@@ -29,4 +29,8 @@ function exactMatchToList (drivers, matcher) {
     .map(function (driver) {
       return driver.name;
     });
-}
+};
+
+const averageRevenue = function (drivers) {
+  return totalRevenue(drivers) / drivers.length;
+};
